@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>الإشتراك</title>
+        <link rel="stylesheet" href="register.css">
+       </head>
+
+  <body>
+
+<a href="index.html"><img class="im1" src="images/home.png" alt=""></a>
+
+<div class="register">
+    <div class="form">
+
+<form method="post" autocomplete="off" name="google-sheet">
+        <label>الاسم ثنائي</label><br>
+        <input type="text"  name="Name"><br>
+
+           <label>رقم الهاتف</label><br>
+        <input type="text" name="Phone"><br>
+
+        <label>العنوان</label><br>
+        <input type="text" id="address" name="Address"><br>
+
+        <label>المنطقة</label>
+  <select name="Region">
+    <option value="حدائق حلوان">حدائق حلوان</option>
+    <option value="حدائق المعادي">حدائق المعادي</option>
+    <option value="دار السلام">دار السلام</option>
+    <option value="البساتين">البساتين</option>
+  </select><br>
+  <a><input type="submit" name="submit"  id="submit" value="تأكيد الطلب">
+</form>
+    </div>
+</div>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxS_C8Uieytb0LHSJxFgY3mh64HSu26vMKD83WsLXUJa5VLcOw/exec'
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("تم تأكيد الطلب سيتم التواصل معك 😄"))
+        .catch(error => console.error('حدث خطأ يرجى التأكد لاحقًا', error.message))
+    })
+  </script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  </body>
+</html>
