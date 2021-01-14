@@ -21,7 +21,7 @@ img.logo:hover{
 .header ul
 {
     list-style-type:none;
-    margin-right: 50px;
+    margin-right: 80px;
 }
 .header ul li{
     display: inline-flex;
@@ -40,8 +40,6 @@ ul li a:hover{
     font-weight: bold;
     text-decoration: none;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    font-family: "DIN Next LT W23" , Arial, Helvetica, sans-serif; 
-    font-weight: normal;
     
 }
 
@@ -172,9 +170,7 @@ h2{width: 300px;
     margin-top: 70px;
     padding: 20px;
     border: #8EB44A solid 3px;
-    border-radius: 5%;
-    font-family: "DIN Next LT W23" , Arial, Helvetica, sans-serif; 
-    font-weight: normal;}
+    border-radius: 5%;}
 
 .containere{
     margin-top: 20px;
@@ -332,9 +328,9 @@ ul li a:hover{
     }
     
        h2{ width: 450px;
-          padding: 40px;
+       padding: 40px;
            font-size: 70px;  
-           border-radius: 3%;
+           border-radius: 3%;  
        }
     .conhow{
         height: auto;
@@ -416,8 +412,6 @@ ul li a:hover{
         color: #209290;
         display: block;
         transition: 0.3s;
-        
-        
       }
     
     
