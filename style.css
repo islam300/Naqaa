@@ -410,6 +410,8 @@ ul li a:hover{
         color: #209290;
         display: block;
         transition: 0.3s;
+       font-family: "DIN Next LT W23" , Arial, Helvetica, sans-serif; 
+        font-weight: normal;
       }
     
     
@@ -425,8 +427,7 @@ ul li a:hover{
         font-size: 130px;
         color: #209290;
         padding: 0px;
-       font-family: "DIN Next LT W23" , Arial, Helvetica, sans-serif; 
-        font-weight: normal;
+     
       }
         
     }
