@@ -142,7 +142,7 @@ border: solid 5px #8EB44A  ;
 box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
 }
 .video{
-    margin-top:px;
+    margin-top:0px;
     width: 900px;
     height: 509px;
     margin:0 auto;
@@ -313,7 +313,7 @@ ul li a:hover{
     width: auto;}
     
     #first{
-        font-size: 70px ;
+        font-size: 77px ;
         margin-top: 40px;
     }
     p{
@@ -323,9 +323,16 @@ ul li a:hover{
     
     .steps{
         margin-left: 0px;
-        margin-bottom: 50px;
-        width: 850px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 900px;
     }
+
+.ved{
+    padding: 20px;
+}
+    .video{
+width: 1000px;}
     
        h2{ width: 450px;
        padding: 40px;
@@ -352,7 +359,7 @@ ul li a:hover{
         background-color: yellowgreen;
      }
     .b1{
-        margin-top: 105px;
+        margin-top: 102px;
     }
 
     .overlay a {font-size: 0px}
