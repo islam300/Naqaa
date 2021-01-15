@@ -2,14 +2,16 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="theme-color" content="#209290"/>
         <title>الإشتراك</title>
         <link rel="stylesheet" href="register.css">
+        <link rel="icon" href="images/tabicon.png" type="image/icon type">
        </head>
 
   <body>
-
-<a href="index.html"><img class="im1" src="images/home.png" alt=""></a>
-
+<div class="rod">
+<a href="index.html"><img class="im1" src="ss.png" alt=""></a>
+</div>
 <div class="register">
     <div class="form">
 
@@ -17,19 +19,28 @@
         <label>الاسم ثنائي</label><br>
         <input type="text"  name="Name"><br>
 
-           <label>رقم الهاتف</label><br>
-        <input type="text" name="Phone"><br>
+           <label>رقم الهاتف </label><label class="Regionword">المنطقة</label><br>
+        <input class="phone" type="text" name="Phone">
+        <select class="Region" name="Region">
+          <option value="حدائق حلوان">حدائق حلوان</option>
+          <option value="حدائق المعادي">حدائق المعادي</option>
+          <option value="دار السلام">دار السلام</option>
+          <option value="البساتين">البساتين</option>
+        </select><br>
 
         <label>العنوان</label><br>
         <input type="text" id="address" name="Address"><br>
+        <label> اختر هديتك </label><br>
 
-        <label>المنطقة</label>
-  <select name="Region">
-    <option value="حدائق حلوان">حدائق حلوان</option>
-    <option value="حدائق المعادي">حدائق المعادي</option>
-    <option value="دار السلام">دار السلام</option>
-    <option value="البساتين">البساتين</option>
-  </select><br>
+        <select name="gift" >
+          <option value="حدائق حلوان">5 جنيه للكيلو </option>
+          <option value="حدائق المعادي">2 باكيت فاين 550 منديل</option>
+          <option value="دار السلام">4 كيلو صابون سائل</option>
+          <option value="البساتين">كيلو إلا ربع أكياس للقمامة</option>
+          <option value="البساتين">8 لتر كلور</option>
+          <option value="البساتين">4 أكياس مكرونة حوراء</option>ر</option>
+        </select><br>
+
   <a><input type="submit" name="submit"  id="submit" value="تأكيد الطلب">
 </form>
     </div>
