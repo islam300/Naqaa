@@ -82,6 +82,7 @@
         background-color: yellowgreen;
         color: white;
     }
+    
 
     @media screen and (min-width: 1099px) {
 
@@ -102,6 +103,7 @@
         .im1{width: 700px;
             display: flex;
        margin-top: 50px;}
+
         .register{
             width: 800px;
             height: 1200px;
@@ -127,15 +129,14 @@ input{
 
 .phone,.Region{width: 340px;
     margin-bottom: 20px;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .Region{
     margin-right: 10px;
-    font-size: 40px;
     padding: 0px;
 }
-.Regionword{margin-right: 20px;}
+.Regionword{margin-right: 90px;}
 
 .form{
     width:700px;
@@ -145,7 +146,7 @@ input{
 
 label{
     color: white;
-    font-size: 70px;
+    font-size: 60px;
     margin-right: 10px;
 }
 
@@ -153,14 +154,15 @@ select{width: 700px;
     height: 100px;
     margin-bottom: 30px;
     padding: 10px;
-    font-size: 60px;
+    font-size: 50px;
    
 }
 
 
 #submit{
     height: 110px;
-    font-size: 70px;}
+    font-size: 60px;}
 
     
-    }              
+    } 
+                 
