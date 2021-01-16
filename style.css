@@ -294,7 +294,7 @@ ul li a:hover{
 
     .overlay{
             display: none;}
-    span{
+    .nav{
         display: none;
     }
         }
@@ -306,7 +306,7 @@ ul li a:hover{
             height: 720px;
             border-radius: 2%;
             }
-    
+ 
     div.quis{ margin-top: 0px; 
         margin-bottom: 10px;
         padding: 0px;
@@ -373,7 +373,7 @@ width: 1000px;}
     
     img.logo{float: right;
         margin: 20px;
-      width:250px;
+      width:300px;
        
     }
     .header{display: flex;
@@ -381,13 +381,12 @@ width: 1000px;}
         align-items: center;
     }
     
-    span{
-        font-size:70px;
+    .nav{
+        width: 60px;
         cursor:pointer;
-        color: #E7E9E9;
         float: left;
-        justify-content: left;
         margin: 20px;
+        margin-top: 0px;
     }
 
 
