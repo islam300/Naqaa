@@ -83,18 +83,14 @@ p{
     margin-bottom: 10px;
     
 }
-li{ padding: 20px;
+li{ padding: 10px;
     font-size: 30px;
     text-align: justify;
     line-height: 1.5;
     color: #176160;
-    padding: 0px;
-    
-    padding-left: 20px;
-
-
 }
-ul{margin-right: 80px;}
+
+ol{margin-right: 80px;}
 
 @media screen and (min-width: 1099px) {
 
