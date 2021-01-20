@@ -44,8 +44,11 @@
             margin-top: 5px;
             padding: 10px;  
             font-size: 14px;
-
         }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;}
+          
         
         .Regionword{margin-right: 105px;}
 
@@ -130,11 +133,13 @@ input{
 .phone,.Region{width: 340px;
     margin-bottom: 20px;
     font-size: 50px;
+
 }
 
 .Region{
     margin-right: 10px;
-    padding: 0px;
+    padding: 20px;
+    background-image: url(images/bback2.png);
 }
 .Regionword{margin-right: 90px;}
 
@@ -153,9 +158,10 @@ label{
 select{width: 700px;
     height: 100px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 20px;
     font-size: 50px;
-    background-image: url(images/tabicon.png);
+    background-image: url(images/bback.png);
+    appearance: none;
    
 }
 
