@@ -138,7 +138,7 @@ input{
 
 .Region{
     margin-right: 10px;
-    padding: 20px;
+    padding-right: 20px;
     background-image: url(images/bback2.png);
 }
 .Regionword{margin-right: 90px;}
@@ -158,8 +158,8 @@ label{
 select{width: 700px;
     height: 100px;
     margin-bottom: 30px;
-    padding: 20px;
-    font-size: 50px;
+    padding-right: 20px;
+    font-size: 45px;
     background-image: url(images/bback.png);
     appearance: none;
    
