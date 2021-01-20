@@ -165,6 +165,10 @@ select{width: 700px;
    
 }
 
+select::-webkit-outer-spin-button,
+select::-webkit-inner-spin-button {
+  -webkit-appearance: none;}
+
 
 #submit{
     height: 110px;
