@@ -28,8 +28,12 @@ img.logo:hover{
     padding-left:20px;
     padding-right:20px;
     padding-top: 5px;
+    font-family: "DIN NEXT™ ARABIC BOLD";
+ url(DIN-NEXT™-ARABIC-BOLD.woff) format('woff');
     
 }
+
+
 ul li.active a,
 ul li a:hover{
     color: #dfce18;
